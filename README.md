@@ -46,7 +46,7 @@ Mean of each wind feature by cluster (scaled from 0 to 1):
 
 **STEP #2 -  Cross-validate models on the train set (10 folds) to identify the best performing one**
 - This approach was tested with and without clustering, so that we can check if this prior grouping actually helped the model. In the end, **the clustering approach was not selected**.
--  **Best performer*: CatBoostClassifier**
+-  **Best performer: CatBoostClassifier**
 - Cross-validated model scores:
 	- **Without clustering: Precision 76.6%, F1-Score 64.3%**
 	- With clustering: Precision 75.7%, F1-Score 61.3%
