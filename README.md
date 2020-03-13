@@ -55,3 +55,7 @@ Mean of each wind feature by cluster (scaled from 0 to 1):
 - Model scores on the test set: Precision 77.1%, F1-Score 75.9%
 
 In parallel, we also tested **hyper-parameter tuning on the RandomForestClassifier model**, which was also one of the best performers during the cross-validation phase. The selected model achieved a 79.1% Precision score, with the following parameters: `{'n_estimators': 450, 'max_features': 'log2', 'criterion': 'entropy', 'class_weight': 'balanced'}`
+
+#### MAIN LIBRARIES
+
+Sickit-Learn, Scipy
