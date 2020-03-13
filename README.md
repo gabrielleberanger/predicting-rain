@@ -1,4 +1,4 @@
-## Predicting wether it will rain the next day with clustering and supervised ML
+## Predicting if it will rain the next day with clustering and supervised ML
 
 *This project was completed as part of my cursus at Ironhack (a 9-week intensive coding bootcamp).*
 
